@@ -133,7 +133,7 @@ width: 100%;
   background-color: #dcdcdc;
   border-radius: 15px;
   position: relative;
-  height: 500px;
+  height: max-content;
   line-height: 0.9; 
   width: 100%;
 
@@ -177,7 +177,6 @@ width: 100%;
 position: absolute;
 right: 10%;
 bottom: 5%;
-width: 300px;
 line-height: 1.3;
 display: flex;
 flex-direction: column;
@@ -215,7 +214,8 @@ text-align: end;
   background-color: #f02d34;
   border-radius: 15px;
   position: relative;
-  height: 400px;
+  /* height: 400px; */
+  height: max-content;
   line-height: 1; 
   color: white;
   width: 100%;
@@ -620,7 +620,7 @@ margin-top: 160px;
 
 @media screen and (max-width:800px) {
   .hero-banner-container{
-    height: 560px;
+    height: max-content;
   }
   .hero-banner-image{
     width: 77%;
@@ -629,7 +629,8 @@ margin-top: 160px;
     right: -6%;
   }
   .footer-banner-container{
-    height: 560px;
+    /* height: 560px; */
+    height: max-content;
     margin-top: 80px;
   }
   .footer-banner-image{
